@@ -77,6 +77,7 @@ var posts = result.Data.Posts;
 Console.WriteLine(posts.First().Name);
 var firstPostByName = await postManager.GetPostByNameAsync(posts.First().Name);
 Console.WriteLine(firstPostByName.Data.Post.Name);
+```
 
 ### Contribute
 
