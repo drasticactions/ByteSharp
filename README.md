@@ -4,6 +4,8 @@ ByteSharp is a third-party client library for [Byte](https://byte.co).
 
 Right now it maps one to one with the current [Byte API](https://github.com/bytehq/api/blob/master/api.md). Anything you can do there, you should be able to do through this library.
 
+Get it on [Nuget](https://www.nuget.org/packages/ByteSharp/0.0.2) or Clone/Compile this solution.
+
 Features:
 
  * Finding bytes via ID or Name.
