@@ -1,6 +1,6 @@
 # ByteSharp
 
-ByteSharp is a third-party client library for [Byte](https://byte.co). 
+ByteSharp is a third-party client library for [Byte](http://byte.co). 
 
 Right now it maps one to one with the current [Byte API](https://github.com/bytehq/api/blob/master/api.md). Anything you can do there, you should be able to do through this library.
 
