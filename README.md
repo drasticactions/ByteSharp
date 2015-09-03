@@ -77,3 +77,9 @@ var posts = result.Data.Posts;
 Console.WriteLine(posts.First().Name);
 var firstPostByName = await postManager.GetPostByNameAsync(posts.First().Name);
 Console.WriteLine(firstPostByName.Data.Post.Name);
+
+### Contribute
+
+If you want to contribute to this project (Any little bit helps!) then just fork this project and submit a pull request.
+
+You need to have Visual Studio 2015, and the [Nubuild Project System](https://visualstudiogallery.msdn.microsoft.com/3efbfdea-7d51-4d45-a954-74a2df51c5d0).
