@@ -14,11 +14,11 @@ Features:
  * Checking and validating names for bytes.
  * Checking and setting your current user status and account status.
  * Creating and logging in users.
-
-Currently under development/known issues:
  * Creating new bytes
  * Editing existing bytes
- * Sending new files/images up to the byte servers.
+
+Currently under development/known issues:
+ * Sending new files/images up to the byte servers. (Should work, but might be hit and miss)
 
 # Basic Usage
 
