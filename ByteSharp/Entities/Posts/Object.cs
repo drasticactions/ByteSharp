@@ -9,61 +9,61 @@ namespace ByteSharp.Entities.Posts
     public class Object
     {
 
-        [JsonProperty("src")]
+        [JsonProperty("src", NullValueHandling = NullValueHandling.Ignore)]
         public string Src { get; set; }
 
-        [JsonProperty("frame")]
+        [JsonProperty("frame", NullValueHandling = NullValueHandling.Ignore)]
         public double[] Frame { get; set; }
 
-        [JsonProperty("type")]
+        [JsonProperty("type", NullValueHandling = NullValueHandling.Ignore)]
         public string Type { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("name", NullValueHandling = NullValueHandling.Ignore)]
         public string Name { get; set; }
 
-        [JsonProperty("effects")]
+        [JsonProperty("effects", NullValueHandling = NullValueHandling.Ignore)]
         public string[] Effects { get; set; }
 
-        [JsonProperty("color")]
+        [JsonProperty("color", NullValueHandling = NullValueHandling.Ignore)]
         public double[] Color { get; set; }
 
-        [JsonProperty("scaleMode")]
+        [JsonProperty("scaleMode", NullValueHandling = NullValueHandling.Ignore)]
         public string ScaleMode { get; set; }
 
-        [JsonProperty("bpm")]
+        [JsonProperty("bpm", NullValueHandling = NullValueHandling.Ignore)]
         public int? Bpm { get; set; }
 
-        [JsonProperty("length")]
+        [JsonProperty("length", NullValueHandling = NullValueHandling.Ignore)]
         public int? Length { get; set; }
 
-        [JsonProperty("instructions")]
+        [JsonProperty("instructions", NullValueHandling = NullValueHandling.Ignore)]
         public object[][] Instructions { get; set; }
 
-        [JsonProperty("style")]
+        [JsonProperty("style", NullValueHandling = NullValueHandling.Ignore)]
         public string Style { get; set; }
 
-        [JsonProperty("text")]
+        [JsonProperty("text", NullValueHandling = NullValueHandling.Ignore)]
         public string Text { get; set; }
 
-        [JsonProperty("transform")]
+        [JsonProperty("transform", NullValueHandling = NullValueHandling.Ignore)]
         public double[][] Transform { get; set; }
 
-        [JsonProperty("description")]
+        [JsonProperty("description", NullValueHandling = NullValueHandling.Ignore)]
         public string Description { get; set; }
 
-        [JsonProperty("title")]
+        [JsonProperty("title", NullValueHandling = NullValueHandling.Ignore)]
         public string Title { get; set; }
 
-        [JsonProperty("url")]
+        [JsonProperty("url", NullValueHandling = NullValueHandling.Ignore)]
         public string Url { get; set; }
 
-        [JsonProperty("attributes")]
+        [JsonProperty("attributes", NullValueHandling = NullValueHandling.Ignore)]
         public object[] Attributes { get; set; }
 
-        [JsonProperty("alignment")]
+        [JsonProperty("alignment", NullValueHandling = NullValueHandling.Ignore)]
         public string Alignment { get; set; }
 
-        [JsonProperty("size")]
+        [JsonProperty("size", NullValueHandling = NullValueHandling.Ignore)]
         public int? Size { get; set; }
     }
 

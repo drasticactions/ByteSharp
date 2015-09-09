@@ -9,13 +9,13 @@ namespace ByteSharp.Entities.Posts
     public class Package
     {
 
-        [JsonProperty("objects")]
+        [JsonProperty("objects", NullValueHandling = NullValueHandling.Ignore)]
         public Object[] Objects { get; set; }
 
-        [JsonProperty("version")]
+        [JsonProperty("version", NullValueHandling = NullValueHandling.Ignore)]
         public string Version { get; set; }
 
-        [JsonProperty("background")]
+        [JsonProperty("background", NullValueHandling = NullValueHandling.Ignore)]
         public double[][] Background { get; set; }
     }
 
