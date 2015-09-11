@@ -6,6 +6,12 @@
 
         public static string ComputerBase = "http://computers.byte.co/";
 
+        #region Computer
+
+        public static string Computers = ComputerBase + "computers";
+
+        #endregion
+
         #region Auth
 
         public static string RequestCode = Base + "request-code";

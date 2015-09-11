@@ -53,6 +53,18 @@
     <Compile Include="Entities\Comments\Error.cs" />
     <Compile Include="Entities\Comments\NewComment.cs" />
     <Compile Include="Entities\Comments\Point.cs" />
+    <Compile Include="Entities\ComputerResult\Args.cs" />
+    <Compile Include="Entities\ComputerResult\ComputerResultResponse.cs" />
+    <Compile Include="Entities\ComputerResult\Data.cs" />
+    <Compile Include="Entities\ComputerResult\Object.cs" />
+    <Compile Include="Entities\ComputerSelectionResult\Arg.cs" />
+    <Compile Include="Entities\ComputerSelectionResult\Attribution.cs" />
+    <Compile Include="Entities\ComputerSelectionResult\ComputerSelectionResultResponse.cs" />
+    <Compile Include="Entities\ComputerSelectionResult\Data.cs" />
+    <Compile Include="Entities\Computers\Attribution.cs" />
+    <Compile Include="Entities\Computers\ComputersResponse.cs" />
+    <Compile Include="Entities\Computers\Datum.cs" />
+    <Compile Include="Entities\Computers\Error.cs" />
     <Compile Include="Entities\Files\Data.cs" />
     <Compile Include="Entities\Files\Error.cs" />
     <Compile Include="Entities\Files\File.cs" />
@@ -91,6 +103,7 @@
     <Compile Include="Interfaces\IActivityManager.cs" />
     <Compile Include="Interfaces\IAuthManager.cs" />
     <Compile Include="Interfaces\ICommentManager.cs" />
+    <Compile Include="Interfaces\IComputerManager.cs" />
     <Compile Include="Interfaces\IFlagsManager.cs" />
     <Compile Include="Interfaces\INameManager.cs" />
     <Compile Include="Interfaces\IPostManager.cs" />
@@ -100,6 +113,7 @@
     <Compile Include="Managers\ActivityManager.cs" />
     <Compile Include="Managers\AuthManager.cs" />
     <Compile Include="Managers\CommentManager.cs" />
+    <Compile Include="Managers\ComputerManager.cs" />
     <Compile Include="Managers\FlagManager.cs" />
     <Compile Include="Managers\NameManager.cs" />
     <Compile Include="Managers\PostManager.cs" />

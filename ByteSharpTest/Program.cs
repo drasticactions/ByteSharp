@@ -41,12 +41,28 @@ namespace ByteSharpTest
             }
 
             _webManager = new WebManager(authToken);
+            await GetComputers();
             //await GetNames();
             //await GetUserInfo();
             //await MakePost();
             //await GetMessages();
             //await MakeComment();
             Console.ReadKey();
+        }
+
+        public static async Task GetComputers()
+        {
+            var computerManager = new ComputerManager(_webManager);
+            var computers = await computerManager.GetComputersAsync();
+            var firstComputer = computers.Data.FirstOrDefault();
+            if (firstComputer == null)
+                return;
+            var computerParams = await computerManager.GetSelectedComputerAsync(firstComputer.Subdomain);
+            var getSelection =
+                await computerManager.SendQueryToComputerAsync
+                (firstComputer.Subdomain, "Dongs REO Speedwagon");
+            Console.WriteLine(getSelection.Data.Args.Query);
+
         }
 
         public static async Task MakeComment()
